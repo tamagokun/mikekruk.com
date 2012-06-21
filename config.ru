@@ -1,7 +1,7 @@
 $stdout.sync = true
 
 use Rack::Static,
-  :urls => ["/assets","/javascripts","/stylesheets","/crossdomain.xml","/MikeKruk.swf"],
+  :urls => ["/assets","/images","/javascripts","/stylesheets","/crossdomain.xml","/MikeKruk.swf"],
   :root => "./public"
 
 run lambda { |env|
