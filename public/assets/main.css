@@ -1,0 +1,195 @@
+#font0 {
+	src: /assets/Often.swf;
+	fontName: Often;
+}
+
+#font1 {
+	src: /assets/Verdana.swf;
+	fontName: Verdana;
+}
+
+.grid {
+	left: 100;
+	top: 130;
+	max-width: 300;
+	max-height: 200;
+}
+
+.main_bubble_title {
+	left: -156;
+	top: -92;
+	font-size: 36px;
+	color: #e2f2f5;
+	font-family: Often;
+}
+
+.main_bubble_client {
+	left: -156;
+	top: -102;
+	font-size: 11px;
+	color: #e2f2f5;
+	font-family: Often;
+}
+
+.main_bubble_teaser {
+	left: -156;
+	top: -100;
+	font-size: 36px;
+	color: #e2f2f5;
+	font-family: Often;
+}
+
+.main_bubble_line {
+	left: -160;
+	top: -110;
+	font-size: 18px;
+	color: #e2f2f5;
+	font-family: Often;
+	width: 335;
+	height: 100;
+}
+
+.main_bubble_toggle {
+	left: -80;
+	top: -75;
+	font-size: 22px;
+	color: #e2f2f5;
+	font-family: Often;
+	padding-right: 10;
+	background-color: 0x694352;
+	border-radius: 10;
+}
+
+.main_bubble_menu {
+	left: 100;
+	top: -50;
+	library-item: KeySpaceTiny;
+	content: OK;
+	font-family: Verdana;
+	font-size: 9px;
+	color: #ffffff;
+	padding-right: 5;
+}
+
+.sub_bubble_image_blurb {
+	left: 0;
+	top: 12;
+	width: 112;
+	height: 20;
+	font-size: 10px;
+	color: #338695;
+	text-align: center;
+	font-family: Often;
+}
+
+.sub_bubble_title {
+	left: -480;
+	top: -85;
+	font-size: 36px;
+	color: #e2f2f5;
+	font-family: Often;
+}
+
+.sub_bubble_client {
+	left: -480;
+	top: -42;
+	font-size: 11px;
+	color: #e2f2f5;
+	font-family: Often;
+}
+
+.sub_bubble_role {
+	left: -480;
+	top: -25;
+	font-size: 11px;
+	color: #e2f2f5;
+	font-family: Often;
+}
+
+.sub_bubble_link {
+	left: -206;
+	top: -109;
+}
+
+.sub_bubble_link_text {
+	left: 10;
+	top: 2;
+	font-family: Verdana;
+	font-size: 9px;
+	color: #ffffff;
+}
+
+.bottom_movement_dialog {
+	library-item: KeyMovement;
+	content: to move;
+	font-family: Verdana;
+	font-size: 9px;
+	color: #fb6a78;
+	padding-right: 10;
+	padding-top: 5;
+}
+
+.bottom_select_dialog {
+	library-item: KeySpace;
+	content: to select;
+	font-family: Verdana;
+	font-size: 9px;
+	color: #fb6a78;
+	padding-right: 10;
+	padding-top: 5;
+}
+
+.bottom_cancel_dialog {
+	library-item: KeyEsc;
+	content: to go back;
+	font-family: Verdana;
+	font-size: 9px;
+	color: #fb6a78;
+	padding-right: 10;
+	padding-top: 5;
+}
+
+Chrysler {
+	sort-height: 104;
+	type: portfolio;
+}
+
+Ripeworks {
+	sort-height: 77;
+	type: portfolio;
+}
+
+Cake {
+	sort-height: 220;
+	type: portfolio;
+}
+
+Scale {
+	sort-height: 140;
+	type: portfolio;
+}
+
+Cone {
+	sort-height: 117;
+	type: portfolio;
+}
+
+Pillow {
+	sort-height: 20;
+	type: portfolio;
+}
+
+Guy {
+	sort-height: 60;
+	type: conversation;
+	teaser: Hey! Over here!;
+	text1: If you need to get around faster, hold down shift to run!;
+}
+
+Sound {
+	sort-height: 215;
+	type: switch;
+	teaser: Sound?;
+	text1: On;
+	text2: Off;
+}
